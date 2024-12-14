@@ -428,7 +428,7 @@ body img {
     align-items: baseline;
 }
 
-.footer-form p {
+.footer-form-title {
     margin-bottom: 16px;
     font-weight: 500;
     font-size: 16px;
@@ -437,7 +437,7 @@ body img {
     color: #ffffff;
 }
 
-.footer-form-iki {
+.footer-form {
     display: flex;
     gap: 24px;
 }
