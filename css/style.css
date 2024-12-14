@@ -427,7 +427,8 @@ body img {
     display: flex;
     align-items: baseline;
 }
-.footer-form-p {
+
+.footer-form p {
     margin-bottom: 16px;
     font-weight: 500;
     font-size: 16px;
@@ -435,11 +436,13 @@ body img {
     letter-spacing: 0.02em;
     color: #ffffff;
 }
-.footer-form {
+
+.footer-form-iki {
     display: flex;
     gap: 24px;
 }
-.fooer-form-m {
+
+.footer-form-mail {
     width: 264px;
     height: 40px;
     border: 1px solid #ffffff;
@@ -448,10 +451,11 @@ body img {
     line-height: 2;
     letter-spacing: 0.04em;
     padding-left: 16px;
-    box-shadow: 0px 4px rgba (0,0,0.15);
+    box-shadow: 0px 4px rgba (0, 0, 0.15);
     border-radius: 4px;
     color: #ffffff
 }
+
 .footer-form-button {
     min-width: 165px;
     height: 40px;
@@ -473,6 +477,7 @@ body img {
 .footer-form-svg {
     margin-left: 16px;
 }
+
 
 .footer-link {
     margin-right: 120px;
