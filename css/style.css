@@ -698,10 +698,11 @@ body img {
     color: #8e8f99;
 }
 
-input[type="checkbox"]:checked+span {
+input:checked+span {
     background-color: #404bbf;
     border: none;
-    fill: #F4F4FD;
+    fill: #f4f4fd;
+
 }
 
 .form-span {
