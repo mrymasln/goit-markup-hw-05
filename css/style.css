@@ -522,7 +522,7 @@ body img {
     left: 50%;
     transform: translate(-50%,-50%);
     width: 408px;
-    height: 584px;
+    min-height: 584px;
     background: #fcfcfc;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
@@ -544,7 +544,10 @@ body img {
     color: #8e8f99;
     margin-bottom: 4px;
 }
-.form-in-svg {
+.isim {
+    position: relative;
+}
+.telefon{
     position: relative;
 
 }
@@ -555,6 +558,8 @@ body img {
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
     background-color: transparent;
+    padding-left: 38px;
+    outline: transparent;
     padding-left: 38px;
     outline: transparent;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -586,13 +591,18 @@ body img {
     background-color: #e7e9fc;
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 0;
+    cursor: pointer;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .form-button:hover {
-    background-color: #404bbf;
+    border: none;
 }
 .form-button:focus {
-    border: none;
+    background-color: #404bbf;
+}
+.carpı {
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    fill: #ffffff;
 }
 .form-p {
     font-weight: 500;
