@@ -693,7 +693,7 @@ body img {
     color: #8e8f99;
 }
 
-.visually-hidden input[type="checkbox"]:checked+span {
+input[type="checkbox"]:checked+span {
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
@@ -719,7 +719,7 @@ body img {
     display: block;
     min-width: 169px;
     height: 56px;
-    font-family: "Roboto", "sans-serif";
+    font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
